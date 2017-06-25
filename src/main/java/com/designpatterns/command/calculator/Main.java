@@ -5,6 +5,7 @@ package com.designpatterns.command.calculator;
  */
 public class Main {
     public static void main(String args[]){
+
         Invoker user = new Invoker();
         Calculator calculator = new Calculator();
 
